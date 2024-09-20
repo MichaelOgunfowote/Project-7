@@ -1,0 +1,12 @@
+label{
+    font-weight: bold;
+}
+
+#name,#dob,#age,#home,#email,#phone,#na{
+    background-color: white;    
+}
+
+#submit{
+    font-weight: bold;  
+    font-size: medium;
+}

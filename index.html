@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascading Style Sheet Page</title>
+<style>
+h2,h3{
+    color: rgb(71, 11, 212);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+</style>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <center>
+        <h1 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">BRIGHT-HILLS ACADEMY</h1>
+        <h3>Student Registration Form</h3>
+        
+        <form>
+            <fieldset>
+                <legend><strong>New Registrant</strong></legend><br>
+                <label>First Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" id="name" placeholder="Enter your first name"><br><br> 
+                <label>Last Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" id="name" placeholder="Enter your last name"><br><br>
+                <label>Date of Birth</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="date" id="dob"><br><br>
+                <label>Age</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" id="age" placeholder="How old are you?"><br><br>
+                <label>Gender:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" id="g">Female
+                <input type="radio" id="g">Male<br><br>
+                <label>Home Address</label>&nbsp;&nbsp;&nbsp;
+                <input type="text" id="home" placeholder="Enter your home address"><br><br>
+                <label>City:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="city">Lagos
+                <input type="checkbox" id="city">Ogun<br><br>
+    
+                <label>Nationality:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select id="na">       
+                    <option id="na">Select your nationality...</option>         
+                    <option id="na">Nigerian</option>
+                    <option id="na">Non Nigerian</option>
+                </select><br><br>
+    
+                <label>Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" id="email" placeholder="Enter your email address"><br><br>
+                <label>Mobile No:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="number" id="phone" placeholder="Enter your phone nunber"><br><br>
+               
+                <button>
+                    <h4 id="submit">Submit</h4>
+                </button>
+            </fieldset>
+        </form>
+    </center>
+</body>
+</html>
